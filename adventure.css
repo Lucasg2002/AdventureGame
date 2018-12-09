@@ -1,0 +1,51 @@
+body{
+	background-image: url('Island.gif');
+	background-size: 2000px;
+	background-repeat: no-repeat;
+
+
+}
+
+#game-container {
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#description{
+	
+	position: relative;
+	top: 25px;
+	color: grey;
+
+}
+
+
+#title {
+	color: grey;
+	
+}
+
+#game-buttons button {
+	background-color: grey;
+	color: black;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	margin: 0 auto;
+	position: relative;
+	top:50px;
+}
+
+#game-buttons button:hover {
+	background-color: white;
+	
+}
+
+
+#button3{ 
+	display: none;
+}
+
+
+
