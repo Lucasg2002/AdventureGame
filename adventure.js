@@ -12,7 +12,7 @@ function startGame() {
   button1.style.display= 'inline'
    button2.style.display= 'inline'
    description.style.fontSize= '16px'
-  document.body.style.backgroundImage= "url('Island.gif')";
+  document.body.style.backgroundImage= "url('pictures/Island.gif')";
 	title.innerHTML = "Lost on the Island";
 	description.innerHTML = "Je wordt wakker en het is heel donker je weet niet waar je bent, maar daar wil je natuurlijk achter komen. Je komt erachter dat je op een eiland bent. Door keuzes te maken probeer je van het eiland af te komen maar er zitten soms levensbepalende keuzes bij. Je doel is om veilig van het eiland af te komen ";
 	button1.innerHTML= "start"
@@ -27,7 +27,7 @@ startGame();
 
 function level1() {
 
-  document.body.style.backgroundImage = "url('darkcave.jpg')";
+  document.body.style.backgroundImage = "url('pictures/darkcave.jpg')";
   title.innerHTML = "Level 1";
   description.innerHTML = "Het is donker en je wordt wakker en je merkt dat je niet meer bent op de plek waar je de vorige dag was. wat ga je doen, het eiland verkennen waar je bent  of ga je nog even rustig aan te doen en een kampvuur maken"
   button1.innerHTML='eiland verkennen';
@@ -41,7 +41,7 @@ function level1() {
 
 function kampvuur() {
   title.innerHTML = "Level 2";
-	document.body.style.backgroundImage = "url('stones.png')";
+	document.body.style.backgroundImage = "url('pictures/stones.png')";
 	description.innerHTML = "Je gaat een kampvuur maken maar je weet niet wat je moet gebruiken je ziet twee stenen Kies je steen 1 of steen 2."
 	button1.innerHTML='steen 1';
 	button2.innerHTML='steen 2';
@@ -53,7 +53,7 @@ function kampvuur() {
  
  
  function eilandverkennen(){
-   document.body.style.backgroundImage = "url('insidecave.jpg')";
+   document.body.style.backgroundImage = "url('pictures/insidecave.jpg')";
    description.innerHTML = "Je staat op en ziet dat je in een grot bent maar je weet niet of het veilig is om naar buiten te gaan Ga naar buiten of blijf voor altijd binnen."   
    title.innerHTML = "level 2"
    button1.innerHTML='Naar buiten';
@@ -68,7 +68,7 @@ function kampvuur() {
 function steen2(){
 title.innerHTML = "level3"
 description.innerHTML = "Je hebt de goede steen gepakt, een vuursteen. Nu kan je een kampvuur maken wil je naar buiten gaan om eten te zoeken of blijf je binnen in de grot om daar eten te gaan zoeken "
-document.body.style.backgroundImage = "url('insidecave.jpg')";
+document.body.style.backgroundImage = "url('pictures/insidecave.jpg')";
  button1.innerHTML='binnen eten zoeken';
   button2.innerHTML='buiten eten zoeken';
   button1.style.width = "250px";
@@ -78,7 +78,7 @@ document.body.style.backgroundImage = "url('insidecave.jpg')";
 }
 
 function naarbuiten(){
- document.body.style.backgroundImage = "url('wolf.jpg')";
+ document.body.style.backgroundImage = "url('pictures/wolf.jpg')";
  description.innerHTML = "Je loopt naar buiten en schrikt want je ziet een wolf voor je wat doe je? Wil je hard wegrennen of wil je blijven staan?"
  title.innerHTML = "level 3"
   button1.innerHTML='wegrennen';
@@ -95,7 +95,7 @@ function naarbuiten(){
  function wegrennen(){
   title.innerHTML= "level 4" 
   description.innerHTML = "Je rent heel hard weg voor de wolf maar je moet hem proberen weg t lokken wat doe je verder rennen of een stok gooien naar de wolf"
-  document.body.style.backgroundImage = "url('wegrennenwolf.jpg')";
+  document.body.style.backgroundImage = "url('pictures/wegrennenwolf.jpg')";
   button1.innerHTML= 'verder rennen'
   button2.innerHTML= 'stok gooien'
     button1.onclick= function(){gameoverwolf()
@@ -108,7 +108,7 @@ function naarbuiten(){
   function buitenzoeken(){
     title.innerHTML= "level 4"
  description.innerHTML = "Je gaat naar buiten om eten te zoeken maar je ziet bananen hoog in de boom hangen maar ook bessen laag op de grond. Wil je de bananen pakken of wil je de bessen pakken?"
- document.body.style.backgroundImage = "url('banaan.jpg')";
+ document.body.style.backgroundImage = "url('pictures/banaan.jpg')";
 button1.innerHTML= "Bananen pakken"
 button2.innerHTML= "Bessen pakken"
  button1.onclick= function(){bananen()}
@@ -120,7 +120,7 @@ button2.innerHTML= "Bessen pakken"
  function bananen(){
   title.innerHTML= "level 5 "
  description.innerHTML = "Je hebt nu eten maar wat wil je nu doen een uitweg van het eiland te zoeken of het eiland verder verkennen?"
- document.body.style.backgroundImage = "url('land.jpg')";
+ document.body.style.backgroundImage = "url('pictures/land.jpg')";
 button1.innerHTML= "uitweg zoeken"
 button2.innerHTML= "verder lopen "
 button1.onclick= function(){uitwegzoeken()}
@@ -132,7 +132,7 @@ button1.onclick= function(){uitwegzoeken()}
  function uitwegzoeken(){
   title.innerHTML="level 6"
  description.innerHTML = "Je rent heel lang over het eiland heen en uiteindelijk zie je heel veel lampen branden maar je weet niet of het veilig is om daar heen te gaan,wil je naar de lamp gaan of wil je verder een uitweg zoeken? "
- document.body.style.backgroundImage = "url('ren.jpg')";
+ document.body.style.backgroundImage = "url('pictures/ren.jpg')";
  button1.innerHTML= "naar de lamp"
  button2.innerHTML= "uitweg zoeken"
  button1.onclick= function(){lamp()}
@@ -144,7 +144,7 @@ button1.onclick= function(){uitwegzoeken()}
  function verderlopen(){
   title.innerHTML="level 6"
   description.innerHTML = "Je loopt verder op het eiland maar raakt uitgeput en je ziet water Wil je het water drinken of niet?"
-  document.body.style.backgroundImage = "url('water.jpg')";
+  document.body.style.backgroundImage = "url('pictures/water.jpg')";
   button1.innerHTML= "Ja"
  button2.innerHTML= "Nee"
  button1.onclick= function(){win()
@@ -155,7 +155,7 @@ button1.onclick= function(){uitwegzoeken()}
 
  function lamp(){
   title.innerHTML="level 7"
-document.body.style.backgroundImage = "url('lamp.jpg')";
+document.body.style.backgroundImage = "url('pictures/lamp.jpg')";
  description.innerHTML = "Je komt aan bij de lamp en ziet dat het een huisje is bij het huisje ontmoet je iemand en diegene zegt dat dit een eiland is waar helemaal niemand meer woont, hij heeft een boot en hij besluit om je weg te brengen naar het vaste land maar onderweg naar het vaste land is er een storm maar die was allang op het nieuws dus er vliegt al een helikopter maar die helikopter kan nog 1 persoon meenemen dus je moet kiezen wie het overleeft kies je voor jezelf of kies je voor de ander?"
 button1.innerHTML= "de ander"
  button2.innerHTML= "jezelf "
@@ -168,7 +168,7 @@ button1.innerHTML= "de ander"
 
 function gameover(){
  title.innerHTML="";
- document.body.style.backgroundImage = "url('gameover.png')";
+ document.body.style.backgroundImage = "url('pictures/gameover.png')";
  button1.style.display= 'none';
  button2.style.display= 'none';
 description.style.color = 'grey';
@@ -177,7 +177,7 @@ setTimeout(startGame, 3000);
 }
 function gameoverwolf(){
 title.innerHTML="";
-document.body.style.backgroundImage = "url('wolf.gif')";
+document.body.style.backgroundImage = "url('pictures/wolf.gif')";
  button1.style.display= 'none';
  button2.style.display= 'none';
   description.style.color = 'grey';
@@ -186,10 +186,11 @@ document.body.style.backgroundImage = "url('wolf.gif')";
 
 function win(){
 title.innerHTML="";
-document.body.style.backgroundImage = "url('win.jpg')";
+document.body.style.backgroundImage = "url('pictures/win.jpg')";
  button1.style.display= 'none';
  button2.style.display= 'none';
   description.style.color = 'grey';
 
 }
+
 
